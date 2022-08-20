@@ -65,13 +65,14 @@ nav{
 
 #darkModeBody{
     position: fixed;
-    top: 20%;
+    top: 10%;
     right: 20px;
     width: 60px;
     height: 30px;
     background: var(--Dark);
     box-shadow: inset 0 0 8px var(--black);
     border-radius: 30px;
+    z-index: 99;
 }
 #darkModeButton{
     position: absolute;
@@ -100,9 +101,23 @@ body.dark{
     --white-rgb: 0, 0, 0;
     --Transition: all 0.5s ease-in;
 }
-#lp-content.dark{
-    background: url(../img/stage.jpg);
+
+@media screen and (max-width: 770px) {
+    #darkModeBody{
+        width: 50px;
+        height: 25px;
+        top: 8%;
+        right: 5px;
+    }
+    #darkModeButton{
+        width: 24px;
+        height: 24px;
+    }
+    #darkModeBody.active .dark-mode-button{
+        left: 25px;
+    }
 }
+
 
 
 /*==== LANDING-PAGE ====*/
@@ -185,7 +200,7 @@ body.dark{
 .trending-content{
     position: absolute;
     bottom: 0px;
-    background: rgba(var(--white-rgb), 0.7);
+    background: rgba(var(--white-rgb), 0.8);
     width: 100%;
     height: 25%;
     overflow: hidden;
@@ -203,7 +218,7 @@ body.dark{
 }
 .trending-content p{
     font-size: 10px;
-    font-weight: 400;
+    font-weight: 500;
 }
 .downloadbox{
     width: 35px;
@@ -300,7 +315,7 @@ body.dark{
 .recently-content{
     position: absolute;
     bottom: 0px;
-    background: rgba(var(--white-rgb), 0.7);
+    background: rgba(var(--white-rgb), 0.8);
     width: 100%;
     height: 25%;
     overflow: hidden;
@@ -318,40 +333,7 @@ body.dark{
 }
 .recently-content p{
     font-size: 10px;
-    font-weight: 400;
-}
-.downloadbox{
-    width: 35px;
-    height: 35px;
-    background: var(--Brand-color-dark);
-    padding: 10px;
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 5%;
-    /* top: 10px;
-    right: 10px; */
-    z-index: 20;
-}
-.downloadbox-top{
-    width: 35px;
-    height: 35px;
-    background: var(--Brand-color-dark);
-    padding: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    overflow: hidden;
-    display: none;
-    justify-content: center;
-    align-items: center;
-    margin-right: 5%;
-    /* top: 10px;
-    right: 10px; */
-    z-index: 68;
-
+    font-weight: 500;
 }
 .recently-body-seeMore{
     border: 1px solid var(--Brand-color-dark);
@@ -365,18 +347,6 @@ body.dark{
     font-size: 20px;
 }
 
-@media screen and (max-width: 995px) {
-    .downloadbox-top{
-        display: block;
-        position: absolute;
-        top: 10px;
-        right: 0px;
-
-    }
-    .downloadbox{
-        display: none;
-    }
-}
 @media  screen  and (max-width: 575px){
     .recently-body{
         width: 65%;
@@ -393,6 +363,9 @@ body.dark{
 
 
 /*==== LOCAL ====*/
+.local{
+    display: none;
+}
 
 .local-body{
     width: 100%;
@@ -409,7 +382,7 @@ body.dark{
 .local-content{
     position: absolute;
     bottom: 0px;
-    background: rgba(var(--white-rgb), 0.7);
+    background: rgba(var(--white-rgb), 0.8);
     width: 100%;
     height: 25%;
     overflow: hidden;
@@ -427,40 +400,7 @@ body.dark{
 }
 .local-content p{
     font-size: 10px;
-    font-weight: 400;
-}
-.downloadbox{
-    width: 35px;
-    height: 35px;
-    background: var(--Brand-color-dark);
-    padding: 10px;
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 5%;
-    /* top: 10px;
-    right: 10px; */
-    z-index: 20;
-}
-.downloadbox-top{
-    width: 35px;
-    height: 35px;
-    background: var(--Brand-color-dark);
-    padding: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    overflow: hidden;
-    display: none;
-    justify-content: center;
-    align-items: center;
-    margin-right: 5%;
-    /* top: 10px;
-    right: 10px; */
-    z-index: 68;
-
+    font-weight: 500;
 }
 .local-body-seeMore{
     border: 1px solid var(--Brand-color-dark);
@@ -474,18 +414,6 @@ body.dark{
     font-size: 20px;
 }
 
-@media screen and (max-width: 995px) {
-    .downloadbox-top{
-        display: block;
-        position: absolute;
-        top: 10px;
-        right: 0px;
-
-    }
-    .downloadbox{
-        display: none;
-    }
-}
 @media  screen  and (max-width: 575px){
     .local-body{
         width: 65%;
@@ -522,7 +450,7 @@ body.dark{
 .foreign-content{
     position: absolute;
     bottom: 0px;
-    background: rgba(var(--white-rgb), 0.7);
+    background: rgba(var(--white-rgb), 0.8);
     width: 100%;
     height: 25%;
     overflow: hidden;
@@ -540,41 +468,9 @@ body.dark{
 }
 .foreign-content p{
     font-size: 10px;
-    font-weight: 400;
+    font-weight: 500;
 }
-.downloadbox{
-    width: 35px;
-    height: 35px;
-    background: var(--Brand-color-dark);
-    padding: 10px;
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 5%;
-    /* top: 10px;
-    right: 10px; */
-    z-index: 20;
-}
-.downloadbox-top{
-    width: 35px;
-    height: 35px;
-    background: var(--Brand-color-dark);
-    padding: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    overflow: hidden;
-    display: none;
-    justify-content: center;
-    align-items: center;
-    margin-right: 5%;
-    /* top: 10px;
-    right: 10px; */
-    z-index: 68;
 
-}
 .foreign-body-seeMore{
     border: 1px solid var(--Brand-color-dark);
     color: var(--Brand-color-dark);
@@ -587,18 +483,6 @@ body.dark{
     font-size: 20px;
 }
 
-@media screen and (max-width: 995px) {
-    .downloadbox-top{
-        display: block;
-        position: absolute;
-        top: 10px;
-        right: 0px;
-
-    }
-    .downloadbox{
-        display: none;
-    }
-}
 @media  screen  and (max-width: 575px){
     .foreign-body{
         width: 65%;

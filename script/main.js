@@ -21,7 +21,7 @@ seeTrendingMore = () => {
 
     LandingPage.style.display = "none";
     Recently.style.display = "none";
-    Local.style.display = "none";
+    // Local.style.display = "none";
     Foreign.style.display = "none";
     navBar.style.display = "none";
 
@@ -44,7 +44,7 @@ seeTrendingLess = () => {
 
     LandingPage.style.display = "block";
     Recently.style.display = "block";
-    Local.style.display = "block";
+    // Local.style.display = "block";
     Foreign.style.display = "block";
     navBar.style.display = "block";
 };
@@ -73,7 +73,7 @@ seeRecentlyMore = () => {
 
     LandingPage.style.display = "none";
     Trending.style.display = "none";
-    Local.style.display = "none";
+    // Local.style.display = "none";
     Foreign.style.display = "none";
     navBar.style.display = "none";
 
@@ -99,7 +99,7 @@ seeRecentlyLess = () => {
 
     LandingPage.style.display = "block";
     Trending.style.display = "block";
-    Local.style.display = "block";
+    // Local.style.display = "block";
     Foreign.style.display = "block";
     navBar.style.display = "block";
 }
@@ -180,7 +180,7 @@ seeForeignMore = () => {
 
     LandingPage.style.display = "none";
     Recently.style.display = "none";
-    Local.style.display = "none";
+    // Local.style.display = "none";
     Trending.style.display = "none";
     navBar.style.display = "none";
 
@@ -204,19 +204,39 @@ seeForeignLess = () => {
 
     LandingPage.style.display = "block";
     Recently.style.display = "block";
-    Local.style.display = "block";
+    // Local.style.display = "block";
     Trending.style.display = "block";
     navBar.style.display = "block";
 }
 
 
 
-// DARK MODE
+
+
+
+//======== DARK MODE AND LIGHT MODE ========
+
 let darkModeBody = document.getElementById("darkModeBody");
 
 darkModeBody.addEventListener("click", () => {
     document.getElementById("darkModeBody").classList.toggle("active");
     document.body.classList.toggle("dark");
-    document.getElementsById("lp-content").classList.toggle("dark");
 })
+
+
+
+
+
+
+//======== TRENDING DOWNLOAD =======
+
+tdownloadMusic = () => {
+//  let songTitle1 = document.getElementById("songTitle1");
+//  let songTitleText1 = document.getElementById("songTitleText1");
+//  let downloadBtn = document.getElementById("downloadBtn");
+
+ document.getElementById("downloadH4").innerHTML = "Bandana";
+ document.getElementById("downloadP").innerHTML = "Fireboy DML (Ft. Asake)";
+
+}
 
