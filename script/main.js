@@ -325,8 +325,8 @@ tdownloadMusic4 = () => {
    
     document.getElementById("downloadH4").innerHTML = tSongTitle4.innerHTML;
     document.getElementById("downloadP").innerHTML = tSongTitleText4.innerHTML;
-    downloadBtn.href = "./audio/trending/Bandana.mp3";
-    downloadAudio.src = "./audio/trending/Bandana.mp3";
+    downloadBtn.href = "./audio/trending/commonPerson.mp3";
+    downloadAudio.src = "./audio/trending/commonPerson.mp3";
     downloadImg.src = document.getElementById("trendingImg4").src;
    
    
@@ -369,8 +369,8 @@ tdownloadMusic6 = () => {
    
     document.getElementById("downloadH4").innerHTML = tSongTitle6.innerHTML;
     document.getElementById("downloadP").innerHTML = tSongTitleText6.innerHTML;
-    downloadBtn.href = "./audio/trending/Bandana.mp3";
-    downloadAudio.src = "./audio/trending/Bandana.mp3";
+    downloadBtn.href = "./audio/trending/girlfriend.mp3";
+    downloadAudio.src = "./audio/trending/girlfriend.mp3";
     downloadImg.src = document.getElementById("trendingImg6").src;
    
    
@@ -391,8 +391,8 @@ tdownloadMusic7 = () => {
    
     document.getElementById("downloadH4").innerHTML = tSongTitle7.innerHTML;
     document.getElementById("downloadP").innerHTML = tSongTitleText7.innerHTML;
-    downloadBtn.href = "./audio/trending/.mp3";
-    downloadAudio.src = "./audio/trending/.mp3";
+    downloadBtn.href = "./audio/trending/certifiedloner.mp3";
+    downloadAudio.src = "./audio/trending/certifiedloner.mp3";
     downloadImg.src = document.getElementById("trendingImg7").src;
    
    
@@ -413,8 +413,8 @@ tdownloadMusic8 = () => {
    
     document.getElementById("downloadH4").innerHTML = tSongTitle8.innerHTML;
     document.getElementById("downloadP").innerHTML = tSongTitleText8.innerHTML;
-    downloadBtn.href = "./audio/trending/.mp3";
-    downloadAudio.src = "./audio/trending/.mp3";
+    downloadBtn.href = "./audio/trending/buga.mp3";
+    downloadAudio.src = "./audio/trending/buga.mp3";
     downloadImg.src = document.getElementById("trendingImg8").src;
    
    
@@ -426,7 +426,7 @@ tdownloadMusic8 = () => {
     downloadPage.style.display = "block";
 }
 
-//
+//sugarcaneR
 tdownloadMusic9 = () => {
 
     let tSongTitle9 = document.getElementById("tSongTitle9");
@@ -435,8 +435,8 @@ tdownloadMusic9 = () => {
    
     document.getElementById("downloadH4").innerHTML = tSongTitle9.innerHTML;
     document.getElementById("downloadP").innerHTML = tSongTitleText9.innerHTML;
-    downloadBtn.href = "./audio/trending/.mp3";
-    downloadAudio.src = "./audio/trending/.mp3";
+    downloadBtn.href = "./audio/trending/sugarcaneR.mp3";
+    downloadAudio.src = "./audio/trending/sugarcaneR.mp3";
     downloadImg.src = document.getElementById("trendingImg9").src;
    
    
@@ -447,6 +447,8 @@ tdownloadMusic9 = () => {
     navBar.style.display = "none";
     downloadPage.style.display = "block";
 }
+
+// palazzo
 tdownloadMusic10 = () => {
 
     let tSongTitle10 = document.getElementById("tSongTitle10");
@@ -455,8 +457,8 @@ tdownloadMusic10 = () => {
    
     document.getElementById("downloadH4").innerHTML = tSongTitle10.innerHTML;
     document.getElementById("downloadP").innerHTML = tSongTitleText10.innerHTML;
-    downloadBtn.href = "./audio/trending/.mp3";
-    downloadAudio.src = "./audio/trending/.mp3";
+    downloadBtn.href = "./audio/trending/palazzo.mp3";
+    downloadAudio.src = "./audio/trending/palazzo.mp3";
     downloadImg.src = document.getElementById("trendingImg10").src;
    
    
@@ -467,6 +469,8 @@ tdownloadMusic10 = () => {
     navBar.style.display = "none";
     downloadPage.style.display = "block";
 }
+
+//dada remix
 tdownloadMusic11 = () => {
 
     let tSongTitle11 = document.getElementById("tSongTitle11");
@@ -475,8 +479,8 @@ tdownloadMusic11 = () => {
    
     document.getElementById("downloadH4").innerHTML = tSongTitle11.innerHTML;
     document.getElementById("downloadP").innerHTML = tSongTitleText11.innerHTML;
-    downloadBtn.href = "./audio/trending/.mp3";
-    downloadAudio.src = "./audio/trending/.mp3";
+    downloadBtn.href = "./audio/trending/dadaR.mp3";
+    downloadAudio.src = "./audio/trending/dadaR.mp3";
     downloadImg.src = document.getElementById("trendingImg11").src;
    
    
@@ -487,6 +491,8 @@ tdownloadMusic11 = () => {
     navBar.style.display = "none";
     downloadPage.style.display = "block";
 }
+
+//last last
 tdownloadMusic12 = () => {
 
     let tSongTitle12 = document.getElementById("tSongTitle12");
@@ -495,8 +501,8 @@ tdownloadMusic12 = () => {
    
     document.getElementById("downloadH4").innerHTML = tSongTitle12.innerHTML;
     document.getElementById("downloadP").innerHTML = tSongTitleText12.innerHTML;
-    downloadBtn.href = "./audio/trending/.mp3";
-    downloadAudio.src = "./audio/trending/.mp3";
+    downloadBtn.href = "./audio/trending/lastlast.mp3";
+    downloadAudio.src = "./audio/trending/lastlast.mp3";
     downloadImg.src = document.getElementById("trendingImg12").src;
    
    
@@ -507,6 +513,8 @@ tdownloadMusic12 = () => {
     navBar.style.display = "none";
     downloadPage.style.display = "block";
 }
+
+//woman
 tdownloadMusic13 = () => {
 
     let tSongTitle13 = document.getElementById("tSongTitle13");
@@ -515,8 +523,8 @@ tdownloadMusic13 = () => {
    
     document.getElementById("downloadH4").innerHTML = tSongTitle13.innerHTML;
     document.getElementById("downloadP").innerHTML = tSongTitleText13.innerHTML;
-    downloadBtn.href = "./audio/trending/.mp3";
-    downloadAudio.src = "./audio/trending/.mp3";
+    downloadBtn.href = "./audio/trending/woman.mp3";
+    downloadAudio.src = "./audio/trending/woman.mp3";
     downloadImg.src = document.getElementById("trendingImg13").src;
    
    
@@ -527,6 +535,8 @@ tdownloadMusic13 = () => {
     navBar.style.display = "none";
     downloadPage.style.display = "block";
 }
+
+//finesse
 tdownloadMusic14 = () => {
 
     let tSongTitle14 = document.getElementById("tSongTitle14");
@@ -535,8 +545,8 @@ tdownloadMusic14 = () => {
    
     document.getElementById("downloadH4").innerHTML = tSongTitle14.innerHTML;
     document.getElementById("downloadP").innerHTML = tSongTitleText14.innerHTML;
-    downloadBtn.href = "./audio/trending/.mp3";
-    downloadAudio.src = "./audio/trending/.mp3";
+    downloadBtn.href = "./audio/trending/finesse.mp3";
+    downloadAudio.src = "./audio/trending/finesse.mp3";
     downloadImg.src = document.getElementById("trendingImg1").src;
    
    
@@ -548,6 +558,7 @@ tdownloadMusic14 = () => {
     downloadPage.style.display = "block";
    }
 
+// ijo(labalaba)
    tdownloadMusic15 = () => {
 
     let tSongTitle15 = document.getElementById("tSongTitle15");
@@ -556,8 +567,8 @@ tdownloadMusic14 = () => {
    
     document.getElementById("downloadH4").innerHTML = tSongTitle15.innerHTML;
     document.getElementById("downloadP").innerHTML = tSongTitleText15.innerHTML;
-    downloadBtn.href = "./audio/trending/.mp3";
-    downloadAudio.src = "./audio/trending/.mp3";
+    downloadBtn.href = "./audio/trending/ijo.mp3";
+    downloadAudio.src = "./audio/trending/ijo.mp3";
     downloadImg.src = document.getElementById("trendingImg15").src;
    
    
