@@ -12,14 +12,14 @@
 </head>
 <body>
     
-    <div class="download-content">
+    <div id="download" class="download-content">
         <div class="container">
             <h5 class="text-center pt-5">Welcome!<br />
                 Hope you get what you want
             </h5>
             <div class="row">
                 <div class="col-md-12 download-img">
-                    <img class="pt-5" src="./img/stage.jpg" alt="Music image">
+                    <img class="pt-5" id="downloadImg" src="./img/stage.jpg" alt="Music image">
                 </div>
             </div>
             <div class="row">
@@ -30,10 +30,15 @@
             </div>
             <div class="row pb-5 d-flex align-items-center text-center">
                 <div class="col-md-6 col-sm-6 mt-3">
-                    <a href="" class="download-here" download="">Download Here<i class="fa-solid fa-download ms-2"></i></a>
+                    <a id="downloadBtn" href="" class="download-here" download="">Download Here<i class="fa-solid fa-download ms-2"></i></a>
                 </div>
                 <div class="col-md-6 col-sm-6 mt-3">
-                    <audio src="./audio/young.mp3" controls=""></audio>
+                    <audio id="downloadAudio" src="" controls=""></audio>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="./index.html" >Go Back</a>
                 </div>
             </div>
         </div>

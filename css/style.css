@@ -527,6 +527,9 @@ body.dark{
 
 
 /*======== DOWNLOAD PAGE ========*/
+#download{
+    display: none;
+}
 .download-content img{
     width: 100%;
     height: 100%;

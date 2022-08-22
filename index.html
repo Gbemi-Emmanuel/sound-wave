@@ -62,6 +62,7 @@
     </div>
 
 
+    <!--====== TRENDING SECTION =====-->
 <div id="trending" class="section-spacing trending border-top" >
     <div class="container">
         <div class="row header-text">
@@ -76,51 +77,51 @@
         <div class="row">
             <div class="col-md-3 col-sm-6 col-xs-6 mt-3">
                 <div class="trending-body">
-                    <img src="./img/trending/bandana.jpg" alt="Music image">
-                    <div class="downloadbox-top">
-                        <a onclick="tdownloadMusic()" href="download.html" target="_blank">d<i class="fa-solid fa-download"></i></a>
+                    <img id="trendingImg1" src="./img/trending/bandana.jpg" alt="Music image">
+                    <div onclick="tdownloadMusic1()" class="downloadbox-top">
+                        <a>d<i class="fa-solid fa-download"></i></a>
                     </div>
                     <div class="trending-content">
                         <div class="trending-content-text">
-                            <h6 id="songTitle1">Bandana</h6>
-                            <p id="songTitleText1" >Fireboy DML(Ft. Asake)</p>
+                            <h6 id="tSongTitle1">Bandana</h6>
+                            <p id="tSongTitleText1" >Fireboy DML(Ft. Asake)</p>
                         </div>
-                        <div class="downloadbox">
-                            <a onclick="tdownloadMusic()" href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-6 mt-3">
-                <div class="trending-body">
-                    <img src="data:image/jpeg;base64,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" alt="Music image">
-                    <div class="downloadbox-top">
-                        <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
-                    </div>
-                    <div class="trending-content">
-                         <div class="trending-content-text">
-                            <h6>Machala</h6>
-                            <p>Certerefe(Ft. Berri-Tiga)</p>
-                        </div>
-                        <div class="downloadbox">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                        <div onclick="tdownloadMusic1()" class="downloadbox">
+                            <a><i class="fa-solid fa-download"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-6 mt-3">
                 <div class="trending-body">
-                    <img src="./img/trending/itsplenty.jpg" alt="Music image">
-                    <div class="downloadbox-top">
-                        <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                    <img id="trendingImg2" src="data:image/jpeg;base64,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" alt="Music image">
+                    <div onclick="tdownloadMusic2()" class="downloadbox-top">
+                        <a><i class="fa-solid fa-download"></i></a>
                     </div>
                     <div class="trending-content">
                          <div class="trending-content-text">
-                            <h6>It's Plenty</h6>
-                            <p>Burna Boy</p>
+                            <h6 id="tSongTitle2">Machala</h6>
+                            <p id="tSongTitleText2">Certerefe(Ft. Berri-Tiga)</p>
                         </div>
-                        <div class="downloadbox">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                        <div onclick="tdownloadMusic2()" class="downloadbox">
+                            <a><i class="fa-solid fa-download"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6 mt-3">
+                <div class="trending-body">
+                    <img id="trendingImg3" src="./img/trending/itsplenty.jpg" alt="Music image">
+                    <div onclick="tdownloadMusic3()" class="downloadbox-top">
+                        <a><i class="fa-solid fa-download"></i></a>
+                    </div>
+                    <div class="trending-content">
+                         <div class="trending-content-text">
+                            <h6 id="tSongTitle3">It's Plenty</h6>
+                            <p id="tSongTitleText3">Burna Boy</p>
+                        </div>
+                        <div onclick="tdownloadMusic3()" class="downloadbox">
+                            <a><i class="fa-solid fa-download"></i></a>
                         
                         </div>
                     </div>
@@ -128,17 +129,17 @@
             </div>
             <div class="col-md-3 col-sm-6 col-xs-6 mt-3">
                 <div class="trending-body">
-                    <img src="./img/trending/commonperson.png" alt="Music image">
-                    <div class="downloadbox-top">
-                        <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                    <img id="trendingImg4" src="./img/trending/commonperson.png" alt="Music image">
+                    <div onclick="tdownloadMusic4()" class="downloadbox-top">
+                        <a><i class="fa-solid fa-download"></i></a>
                     </div>
                     <div class="trending-content">
                          <div class="trending-content-text">
-                            <h6>Common Person</h6>
-                            <p>Burna Boy</p>
+                            <h6 id="tSongTitle4">Common Person</h6>
+                            <p  id="tSongTitleText4">Burna Boy</p>
                         </div>
-                        <div class="downloadbox">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                        <div onclick="tdownloadMusic4()" class="downloadbox">
+                            <a><i class="fa-solid fa-download"></i></a>
                         
                         </div>
                     </div>
@@ -148,34 +149,34 @@
         <div class="row">
             <div class="col-md-3 col-sm-6 col-xs-6 mt-3">
                 <div class="trending-body">
-                    <img src="./img/trending/pbuy.jpg" alt="Music image">
-                    <div class="downloadbox-top">
-                        <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                    <img id="trendingImg5" src="./img/trending/pbuy.jpg" alt="Music image">
+                    <div onclick="tdownloadMusic5()" class="downloadbox-top">
+                        <a><i class="fa-solid fa-download"></i></a>
                     </div>
                     <div class="trending-content">
                         <div class="trending-content-text">
-                            <h6>Peace Be Unto You</h6>
-                            <p>Asake</p>
+                            <h6 id="tSongTitle5">Peace Be Unto You</h6>
+                            <p  id="tSongTitleText5">Asake</p>
                         </div>
-                        <div class="downloadbox">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                        <div onclick="tdownloadMusic5()" class="downloadbox">
+                            <a><i class="fa-solid fa-download"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-6 mt-3">
                 <div class="trending-body">
-                    <img src="./img/trending/girlfriend.jpg" alt="Music image">
-                    <div class="downloadbox-top">
-                        <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                    <img id="trendingImg6" src="./img/trending/girlfriend.jpg" alt="Music image">
+                    <div onclick="tdownloadMusic6()" class="downloadbox-top">
+                        <a><i class="fa-solid fa-download"></i></a>
                     </div>
                     <div class="trending-content">
                          <div class="trending-content-text">
-                            <h6>Girlfriend</h6>
-                            <p>Ruger</p>
+                            <h6 id="tSongTitle6">Girlfriend</h6>
+                            <p id="tSongTitleText6">Ruger</p>
                         </div>
-                        <div class="downloadbox">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                        <div onclick="tdownloadMusic6()" class="downloadbox">
+                            <a><i class="fa-solid fa-download"></i></a>
                         
                         </div>
                     </div>
@@ -183,17 +184,17 @@
             </div>
             <div class="col-md-3 col-sm-6 col-xs-6 mt-3">
                 <div class="trending-body">
-                    <img src="./img/trending/certifiedloner.jpg" alt="Music image">
-                    <div class="downloadbox-top">
-                        <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                    <img id="trendingImg7" src="./img/trending/certifiedloner.jpg" alt="Music image">
+                    <div onclick="tdownloadMusic7()" class="downloadbox-top">
+                        <a><i class="fa-solid fa-download"></i></a>
                     </div>
                     <div class="trending-content">
                          <div class="trending-content-text">
-                            <h6>Certified Loner</h6>
-                            <p>Mayorkun</p>
+                            <h6 id="tSongTitle7">Certified Loner</h6>
+                            <p id="tSongTitleText7">Mayorkun</p>
                         </div>
-                        <div class="downloadbox">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                        <div onclick="tdownloadMusic7()" class="downloadbox">
+                            <a><i class="fa-solid fa-download"></i></a>
                         
                         </div>
                     </div>
@@ -215,34 +216,34 @@
             <div id="more-trending" class="row more-trending">
                 <div class="col-md-3 col-sm-6 col-xs-6 mt-3">
                     <div class="trending-body">
-                        <img src="./img/trending/buga.jpg" alt="Music image">
-                        <div class="downloadbox-top">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                        <img id="trendingImg8" src="./img/trending/buga.jpg" alt="Music image">
+                        <div onclick="tdownloadMusic8()" class="downloadbox-top">
+                            <a><i class="fa-solid fa-download"></i></a>
                         </div>
                         <div class="trending-content">
                             <div class="trending-content-text">
-                                <h6>Buga</h6>
-                                <p>Kizz Daniel(Ft. Tekno)</p>
+                                <h6 id="tSongTitle8">Buga</h6>
+                                <p id="tSongTitleText8">Kizz Daniel(Ft. Tekno)</p>
                             </div>
-                            <div class="downloadbox">
-                                <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <div onclick="tdownloadMusic8()" class="downloadbox">
+                                <a><i class="fa-solid fa-download"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-6 mt-3">
                     <div class="trending-body">
-                        <img src="./img/trending/sugercane.jpg" alt="Music image">
-                        <div class="downloadbox-top">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                        <img id="trendingImg9" src="./img/trending/sugercane.jpg" alt="Music image">
+                        <div onclick="tdownloadMusic9()" class="downloadbox-top">
+                            <a><i class="fa-solid fa-download"></i></a>
                         </div>
                         <div class="trending-content">
                              <div class="trending-content-text">
-                                <h6>sugercane(Remix)</h6>
-                                <p>Camidoh(Ft. King Promise,Mayorkun..)</p>
+                                <h6 id="tSongTitle9">sugercane(Remix)</h6>
+                                <p id="tSongTitleText9">Camidoh(Ft. King Promise,Mayorkun..)</p>
                             </div>
-                            <div class="downloadbox">
-                                <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <div onclick="tdownloadMusic9()" class="downloadbox">
+                                <a><i class="fa-solid fa-download"></i></a>
                             
                             </div>
                         </div>
@@ -250,17 +251,17 @@
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-6 mt-3">
                     <div class="trending-body">
-                        <img src="./img/trending/palazzo.jpg" alt="Music image">
-                        <div class="downloadbox-top">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                        <img id="trendingImg10" src="./img/trending/palazzo.jpg" alt="Music image">
+                        <div onclick="tdownloadMusic10()" class="downloadbox-top">
+                            <a><i class="fa-solid fa-download"></i></a>
                         </div>
                         <div class="trending-content">
                              <div class="trending-content-text">
-                                <h6>Palazzo</h6>
-                                <p>DJ Spinall(Ft. Asake)</p>
+                                <h6 id="tSongTitle10">Palazzo</h6>
+                                <p id="tSongTitleText10">DJ Spinall(Ft. Asake)</p>
                             </div>
-                            <div class="downloadbox">
-                                <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <div onclick="tdownloadMusic10()" class="downloadbox">
+                                <a><i class="fa-solid fa-download"></i></a>
                             
                             </div>
                         </div>
@@ -268,17 +269,17 @@
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-6 mt-3">
                     <div class="trending-body">
-                        <img src="./img/trending/dada.jpg" alt="Music image">
-                        <div class="downloadbox-top">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                        <img id="trendingImg11" src="./img/trending/dada.jpg" alt="Music image">
+                        <div onclick="tdownloadMusic11()" class="downloadbox-top">
+                            <a><i class="fa-solid fa-download"></i></a>
                         </div>
                         <div class="trending-content">
                              <div class="trending-content-text">
-                                <h6>Dada</h6>
-                                <p>Young John(Ft. Davido)</p>
+                                <h6 id="tSongTitle11">Dada</h6>
+                                <p id="tSongTitleText11">Young John(Ft. Davido)</p>
                             </div>
-                            <div class="downloadbox">
-                                <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <div onclick="tdownloadMusic11()" class="downloadbox">
+                                <a><i class="fa-solid fa-download"></i></a>
                             
                             </div>
                         </div>
@@ -289,34 +290,34 @@
             <div id="more-trending2" class="row more-trending">
                 <div class="col-md-3 col-sm-6 col-xs-6 mt-3">
                     <div class="trending-body">
-                        <img src="./img/trending/lastlast.jpg" alt="Music image">
-                        <div class="downloadbox-top">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                        <img id="trendingImg12" src="./img/trending/lastlast.jpg" alt="Music image">
+                        <div onclick="tdownloadMusic12()" class="downloadbox-top">
+                            <a><i class="fa-solid fa-download"></i></a>
                         </div>
                         <div class="trending-content">
                             <div class="trending-content-text">
-                                <h6>Last Last</h6>
-                                <p>Burna Boy</p>
+                                <h6 id="tSongTitle12">Last Last</h6>
+                                <p id="tSongTitleText12">Burna Boy</p>
                             </div>
-                            <div class="downloadbox">
-                                <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <div onclick="tdownloadMusic12()" class="downloadbox">
+                                <a><i class="fa-solid fa-download"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-6 mt-3">
                     <div class="trending-body">
-                        <img src="./img/trending/woman.jpg" alt="Music image">
-                        <div class="downloadbox-top">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                        <img id="trendingImg13" src="./img/trending/woman.jpg" alt="Music image">
+                        <div onclick="tdownloadMusic13()" class="downloadbox-top">
+                            <a><i class="fa-solid fa-download"></i></a>
                         </div>
                         <div class="trending-content">
                              <div class="trending-content-text">
-                                <h6>Woman</h6>
-                                <p>Omah Lay</p>
+                                <h6 id="tSongTitle13">Woman</h6>
+                                <p id="tSongTitleText13">Omah Lay</p>
                             </div>
-                            <div class="downloadbox">
-                                <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <div onclick="tdownloadMusic13()" class="downloadbox">
+                                <a><i class="fa-solid fa-download"></i></a>
                             
                             </div>
                         </div>
@@ -324,17 +325,17 @@
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-6 mt-3">
                     <div class="trending-body">
-                        <img src="./img/trending/finesse.jpg" alt="Music image">
-                        <div class="downloadbox-top">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                        <img id="trendingImg14" src="./img/trending/finesse.jpg" alt="Music image">
+                        <div onclick="tdownloadMusic14()" class="downloadbox-top">
+                            <a><i class="fa-solid fa-download"></i></a>
                         </div>
                         <div class="trending-content">
                              <div class="trending-content-text">
-                                <h6>Finesse</h6>
-                                <p>Pheelz(Ft. BNXN)</p>
+                                <h6 id="tSongTitle14">Finesse</h6>
+                                <p id="tSongTitleText14">Pheelz(Ft. BNXN)</p>
                             </div>
-                            <div class="downloadbox">
-                                <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <div onclick="tdownloadMusic14()" class="downloadbox">
+                                <a><i class="fa-solid fa-download"></i></a>
                             
                             </div>
                         </div>
@@ -342,17 +343,17 @@
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-6 mt-3">
                     <div class="trending-body">
-                        <img src="./img/trending/ijo.jpg" alt="Music image">
-                        <div class="downloadbox-top">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                        <img id="trendingImg15" src="./img/trending/ijo.jpg" alt="Music image">
+                        <div onclick="tdownloadMusic15()" class="downloadbox-top">
+                            <a><i class="fa-solid fa-download"></i></a>
                         </div>
                         <div class="trending-content">
                              <div class="trending-content-text">
-                                <h6>Ijo(labalaba)</h6>
-                                <p>Crayon</p>
+                                <h6 id="tSongTitle15">Ijo(labalaba)</h6>
+                                <p id="tSongTitleText15">Crayon</p>
                             </div>
-                            <div class="downloadbox">
-                                <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <div onclick="tdownloadMusic15()" class="downloadbox">
+                                <a><i class="fa-solid fa-download"></i></a>
                             
                             </div>
                         </div>
@@ -364,6 +365,8 @@
 </div>
 
 
+
+    <!--===== RECENTLY SECTION =====-->
 <div id="recently" class="section-spacing recently border-top">
     <div class="container">
         <div class="row header-text">
@@ -389,7 +392,7 @@
                             <p>Burna Boy(Ft. Ed Sheeran)</p>
                         </div>
                         <div class="downloadbox">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <a><i class="fa-solid fa-download"></i></a>
                         </div>
                     </div>
                 </div>
@@ -398,7 +401,7 @@
                 <div class="recently-body">
                     <img src="./img/trending/allPower.jpg" alt="Music image">
                     <div class="downloadbox-top">
-                        <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                        <a><i class="fa-solid fa-download"></i></a>
                     </div>
                     <div class="recently-content">
                          <div class="recently-content-text">
@@ -406,7 +409,7 @@
                             <p>Victony</p>
                         </div>
                         <div class="downloadbox">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <a><i class="fa-solid fa-download"></i></a>
                         
                         </div>
                     </div>
@@ -416,7 +419,7 @@
                 <div class="recently-body">
                     <img src="./img/mic.jpg" alt="Music image">
                     <div class="downloadbox-top">
-                        <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                        <a><i class="fa-solid fa-download"></i></a>
                     </div>
                     <div class="recently-content">
                          <div class="recently-content-text">
@@ -424,7 +427,7 @@
                             <p>Burna Boy(Ft. Ed Sheeran)</p>
                         </div>
                         <div class="downloadbox">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <a><i class="fa-solid fa-download"></i></a>
                         
                         </div>
                     </div>
@@ -434,7 +437,7 @@
                 <div class="recently-body">
                     <img src="./img/mic.jpg" alt="Music image">
                     <div class="downloadbox-top">
-                        <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                        <a><i class="fa-solid fa-download"></i></a>
                     </div>
                     <div class="recently-content">
                          <div class="recently-content-text">
@@ -442,7 +445,7 @@
                             <p>Burna Boy(Ft. Ed Sheeran)</p>
                         </div>
                         <div class="downloadbox">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <a><i class="fa-solid fa-download"></i></a>
                         
                         </div>
                     </div>
@@ -454,7 +457,7 @@
                 <div class="recently-body">
                     <img src="./img/mic.jpg" alt="Music image">
                     <div class="downloadbox-top">
-                        <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                        <a><i class="fa-solid fa-download"></i></a>
                     </div>
                     <div class="recently-content">
                         <div class="recently-content-text">
@@ -462,7 +465,7 @@
                             <p>Burna Boy(Ft. Ed Sheeran)</p>
                         </div>
                         <div class="downloadbox">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <a><i class="fa-solid fa-download"></i></a>
                         </div>
                     </div>
                 </div>
@@ -471,7 +474,7 @@
                 <div class="recently-body">
                     <img src="./img/mic.jpg" alt="Music image">
                     <div class="downloadbox-top">
-                        <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                        <a><i class="fa-solid fa-download"></i></a>
                     </div>
                     <div class="recently-content">
                          <div class="recently-content-text">
@@ -479,7 +482,7 @@
                             <p>Burna Boy(Ft. Ed Sheeran)</p>
                         </div>
                         <div class="downloadbox">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <a><i class="fa-solid fa-download"></i></a>
                         
                         </div>
                     </div>
@@ -489,7 +492,7 @@
                 <div class="recently-body">
                     <img src="./img/mic.jpg" alt="Music image">
                     <div class="downloadbox-top">
-                        <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                        <a><i class="fa-solid fa-download"></i></a>
                     </div>
                     <div class="recently-content">
                          <div class="recently-content-text">
@@ -497,7 +500,7 @@
                             <p>Burna Boy(Ft. Ed Sheeran)</p>
                         </div>
                         <div class="downloadbox">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <a><i class="fa-solid fa-download"></i></a>
                         
                         </div>
                     </div>
@@ -519,7 +522,7 @@
                     <div class="recently-body">
                         <img src="./img/mic.jpg" alt="Music image">
                         <div class="downloadbox-top">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <a><i class="fa-solid fa-download"></i></a>
                         </div>
                         <div class="recently-content">
                             <div class="recently-content-text">
@@ -527,7 +530,7 @@
                                 <p>Burna Boy(Ft. Ed Sheeran)</p>
                             </div>
                             <div class="downloadbox">
-                                <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                                <a><i class="fa-solid fa-download"></i></a>
                             </div>
                         </div>
                     </div>
@@ -536,7 +539,7 @@
                     <div class="recently-body">
                         <img src="./img/mic.jpg" alt="Music image">
                         <div class="downloadbox-top">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <a><i class="fa-solid fa-download"></i></a>
                         </div>
                         <div class="recently-content">
                              <div class="recently-content-text">
@@ -544,7 +547,7 @@
                                 <p>Burna Boy(Ft. Ed Sheeran)</p>
                             </div>
                             <div class="downloadbox">
-                                <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                                <a><i class="fa-solid fa-download"></i></a>
                             
                             </div>
                         </div>
@@ -554,7 +557,7 @@
                     <div class="recently-body">
                         <img src="./img/mic.jpg" alt="Music image">
                         <div class="downloadbox-top">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <a><i class="fa-solid fa-download"></i></a>
                         </div>
                         <div class="recently-content">
                              <div class="recently-content-text">
@@ -562,7 +565,7 @@
                                 <p>Burna Boy(Ft. Ed Sheeran)</p>
                             </div>
                             <div class="downloadbox">
-                                <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                                <a><i class="fa-solid fa-download"></i></a>
                             
                             </div>
                         </div>
@@ -572,7 +575,7 @@
                     <div class="recently-body">
                         <img src="./img/mic.jpg" alt="Music image">
                         <div class="downloadbox-top">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <a><i class="fa-solid fa-download"></i></a>
                         </div>
                         <div class="recently-content">
                              <div class="recently-content-text">
@@ -580,7 +583,7 @@
                                 <p>Burna Boy(Ft. Ed Sheeran)</p>
                             </div>
                             <div class="downloadbox">
-                                <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                                <a><i class="fa-solid fa-download"></i></a>
                             
                             </div>
                         </div>
@@ -592,7 +595,7 @@
                     <div class="recently-body">
                         <img src="./img/mic.jpg" alt="Music image">
                         <div class="downloadbox-top">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <a><i class="fa-solid fa-download"></i></a>
                         </div>
                         <div class="recently-content">
                             <div class="recently-content-text">
@@ -600,7 +603,7 @@
                                 <p>Burna Boy(Ft. Ed Sheeran)</p>
                             </div>
                             <div class="downloadbox">
-                                <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                                <a><i class="fa-solid fa-download"></i></a>
                             </div>
                         </div>
                     </div>
@@ -609,7 +612,7 @@
                     <div class="recently-body">
                         <img src="./img/mic.jpg" alt="Music image">
                         <div class="downloadbox-top">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <a><i class="fa-solid fa-download"></i></a>
                         </div>
                         <div class="recently-content">
                              <div class="recently-content-text">
@@ -617,7 +620,7 @@
                                 <p>Burna Boy(Ft. Ed Sheeran)</p>
                             </div>
                             <div class="downloadbox">
-                                <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                                <a><i class="fa-solid fa-download"></i></a>
                             
                             </div>
                         </div>
@@ -627,7 +630,7 @@
                     <div class="recently-body">
                         <img src="./img/mic.jpg" alt="Music image">
                         <div class="downloadbox-top">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <a><i class="fa-solid fa-download"></i></a>
                         </div>
                         <div class="recently-content">
                              <div class="recently-content-text">
@@ -635,7 +638,7 @@
                                 <p>Burna Boy(Ft. Ed Sheeran)</p>
                             </div>
                             <div class="downloadbox">
-                                <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                                <a><i class="fa-solid fa-download"></i></a>
                             
                             </div>
                         </div>
@@ -645,7 +648,7 @@
                     <div class="recently-body">
                         <img src="./img/mic.jpg" alt="Music image">
                         <div class="downloadbox-top">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <a><i class="fa-solid fa-download"></i></a>
                         </div>
                         <div class="recently-content">
                              <div class="recently-content-text">
@@ -653,7 +656,7 @@
                                 <p>Burna Boy(Ft. Ed Sheeran)</p>
                             </div>
                             <div class="downloadbox">
-                                <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                                <a><i class="fa-solid fa-download"></i></a>
                             
                             </div>
                         </div>
@@ -685,7 +688,7 @@
                 <div class="foreign-body">
                     <img src="./img/mic.jpg" alt="Music image">
                     <div class="downloadbox-top">
-                        <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                        <a><i class="fa-solid fa-download"></i></a>
                     </div>
                     <div class="foreign-content">
                         <div class="foreign-content-text">
@@ -693,7 +696,7 @@
                             <p>Burna Boy(Ft. Ed Sheeran)</p>
                         </div>
                         <div class="downloadbox">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <a><i class="fa-solid fa-download"></i></a>
                         </div>
                     </div>
                 </div>
@@ -702,7 +705,7 @@
                 <div class="foreign-body">
                     <img src="./img/mic.jpg" alt="Music image">
                     <div class="downloadbox-top">
-                        <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                        <a><i class="fa-solid fa-download"></i></a>
                     </div>
                     <div class="foreign-content">
                          <div class="foreign-content-text">
@@ -710,7 +713,7 @@
                             <p>Burna Boy(Ft. Ed Sheeran)</p>
                         </div>
                         <div class="downloadbox">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <a><i class="fa-solid fa-download"></i></a>
                         
                         </div>
                     </div>
@@ -720,7 +723,7 @@
                 <div class="foreign-body">
                     <img src="./img/mic.jpg" alt="Music image">
                     <div class="downloadbox-top">
-                        <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                        <a><i class="fa-solid fa-download"></i></a>
                     </div>
                     <div class="foreign-content">
                          <div class="foreign-content-text">
@@ -728,7 +731,7 @@
                             <p>Burna Boy(Ft. Ed Sheeran)</p>
                         </div>
                         <div class="downloadbox">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <a><i class="fa-solid fa-download"></i></a>
                         
                         </div>
                     </div>
@@ -738,7 +741,7 @@
                 <div class="foreign-body">
                     <img src="./img/mic.jpg" alt="Music image">
                     <div class="downloadbox-top">
-                        <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                        <a><i class="fa-solid fa-download"></i></a>
                     </div>
                     <div class="foreign-content">
                          <div class="foreign-content-text">
@@ -746,7 +749,7 @@
                             <p>Burna Boy(Ft. Ed Sheeran)</p>
                         </div>
                         <div class="downloadbox">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <a><i class="fa-solid fa-download"></i></a>
                         
                         </div>
                     </div>
@@ -758,7 +761,7 @@
                 <div class="foreign-body">
                     <img src="./img/mic.jpg" alt="Music image">
                     <div class="downloadbox-top">
-                        <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                        <a><i class="fa-solid fa-download"></i></a>
                     </div>
                     <div class="foreign-content">
                         <div class="foreign-content-text">
@@ -766,7 +769,7 @@
                             <p>Burna Boy(Ft. Ed Sheeran)</p>
                         </div>
                         <div class="downloadbox">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <a><i class="fa-solid fa-download"></i></a>
                         </div>
                     </div>
                 </div>
@@ -775,7 +778,7 @@
                 <div class="foreign-body">
                     <img src="./img/mic.jpg" alt="Music image">
                     <div class="downloadbox-top">
-                        <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                        <a><i class="fa-solid fa-download"></i></a>
                     </div>
                     <div class="foreign-content">
                          <div class="foreign-content-text">
@@ -783,7 +786,7 @@
                             <p>Burna Boy(Ft. Ed Sheeran)</p>
                         </div>
                         <div class="downloadbox">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <a><i class="fa-solid fa-download"></i></a>
                         </div>
                     </div>
                 </div>
@@ -792,7 +795,7 @@
                 <div class="foreign-body">
                     <img src="./img/mic.jpg" alt="Music image">
                     <div class="downloadbox-top">
-                        <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                        <a><i class="fa-solid fa-download"></i></a>
                     </div>
                     <div class="foreign-content">
                          <div class="foreign-content-text">
@@ -800,7 +803,7 @@
                             <p>Burna Boy(Ft. Ed Sheeran)</p>
                         </div>
                         <div class="downloadbox">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <a><i class="fa-solid fa-download"></i></a>
                         
                         </div>
                     </div>
@@ -822,7 +825,7 @@
                     <div class="foreign-body">
                         <img src="./img/mic.jpg" alt="Music image">
                         <div class="downloadbox-top">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <a><i class="fa-solid fa-download"></i></a>
                         </div>
                         <div class="foreign-content">
                             <div class="foreign-content-text">
@@ -830,7 +833,7 @@
                                 <p>Burna Boy(Ft. Ed Sheeran)</p>
                             </div>
                             <div class="downloadbox">
-                                <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                                <a><i class="fa-solid fa-download"></i></a>
                             </div>
                         </div>
                     </div>
@@ -839,7 +842,7 @@
                     <div class="foreign-body">
                         <img src="./img/mic.jpg" alt="Music image">
                         <div class="downloadbox-top">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <a><i class="fa-solid fa-download"></i></a>
                         </div>
                         <div class="foreign-content">
                              <div class="foreign-content-text">
@@ -847,7 +850,7 @@
                                 <p>Burna Boy(Ft. Ed Sheeran)</p>
                             </div>
                             <div class="downloadbox">
-                                <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                                <a><i class="fa-solid fa-download"></i></a>
                             
                             </div>
                         </div>
@@ -857,7 +860,7 @@
                     <div class="foreign-body">
                         <img src="./img/mic.jpg" alt="Music image">
                         <div class="downloadbox-top">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <a><i class="fa-solid fa-download"></i></a>
                         </div>
                         <div class="foreign-content">
                              <div class="foreign-content-text">
@@ -865,7 +868,7 @@
                                 <p>Burna Boy(Ft. Ed Sheeran)</p>
                             </div>
                             <div class="downloadbox">
-                                <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                                <a><i class="fa-solid fa-download"></i></a>
                             
                             </div>
                         </div>
@@ -875,7 +878,7 @@
                     <div class="foreign-body">
                         <img src="./img/mic.jpg" alt="Music image">
                         <div class="downloadbox-top">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <a><i class="fa-solid fa-download"></i></a>
                         </div>
                         <div class="foreign-content">
                              <div class="foreign-content-text">
@@ -883,7 +886,7 @@
                                 <p>Burna Boy(Ft. Ed Sheeran)</p>
                             </div>
                             <div class="downloadbox">
-                                <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                                <a><i class="fa-solid fa-download"></i></a>
                             
                             </div>
                         </div>
@@ -895,7 +898,7 @@
                     <div class="foreign-body">
                         <img src="./img/mic.jpg" alt="Music image">
                         <div class="downloadbox-top">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <a><i class="fa-solid fa-download"></i></a>
                         </div>
                         <div class="foreign-content">
                             <div class="foreign-content-text">
@@ -903,7 +906,7 @@
                                 <p>Burna Boy(Ft. Ed Sheeran)</p>
                             </div>
                             <div class="downloadbox">
-                                <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                                <a><i class="fa-solid fa-download"></i></a>
                             </div>
                         </div>
                     </div>
@@ -912,7 +915,7 @@
                     <div class="foreign-body">
                         <img src="./img/mic.jpg" alt="Music image">
                         <div class="downloadbox-top">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <a><i class="fa-solid fa-download"></i></a>
                         </div>
                         <div class="foreign-content">
                              <div class="foreign-content-text">
@@ -920,7 +923,7 @@
                                 <p>Burna Boy(Ft. Ed Sheeran)</p>
                             </div>
                             <div class="downloadbox">
-                                <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                                <a><i class="fa-solid fa-download"></i></a>
                             
                             </div>
                         </div>
@@ -930,7 +933,7 @@
                     <div class="foreign-body">
                         <img src="./img/mic.jpg" alt="Music image">
                         <div class="downloadbox-top">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <a><i class="fa-solid fa-download"></i></a>
                         </div>
                         <div class="foreign-content">
                              <div class="foreign-content-text">
@@ -938,7 +941,7 @@
                                 <p>Burna Boy(Ft. Ed Sheeran)</p>
                             </div>
                             <div class="downloadbox">
-                                <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                                <a><i class="fa-solid fa-download"></i></a>
                             
                             </div>
                         </div>
@@ -948,7 +951,7 @@
                     <div class="foreign-body">
                         <img src="./img/mic.jpg" alt="Music image">
                         <div class="downloadbox-top">
-                            <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                            <a><i class="fa-solid fa-download"></i></a>
                         </div>
                         <div class="foreign-content">
                              <div class="foreign-content-text">
@@ -956,7 +959,7 @@
                                 <p>Burna Boy(Ft. Ed Sheeran)</p>
                             </div>
                             <div class="downloadbox">
-                                <a href="download.html" target="_blank"><i class="fa-solid fa-download"></i></a>
+                                <a><i class="fa-solid fa-download"></i></a>
                             
                             </div>
                         </div>
@@ -969,13 +972,48 @@
 </div>
 
 
+<!--===== DOWNLOAD PAGE =====-->
+
+<div id="download" class="download-content">
+    <div class="container">
+        <h5 class="text-center pt-5">Welcome!<br />
+            Hope you get what you want
+        </h5>
+        <div class="row">
+            <div class="col-md-12 download-img">
+                <img class="pt-5" id="downloadImg" src="./img/stage.jpg" alt="Music image">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h4 id="downloadH4" class="pt-3"></h4>
+                <p id="downloadP" ></p>
+            </div>
+        </div>
+        <div class="row pb-5 d-flex align-items-center text-center">
+            <div class="col-md-6 col-sm-6 mt-3">
+                <a id="downloadBtn" href="" class="download-here" download="">Download Here<i class="fa-solid fa-download ms-2"></i></a>
+            </div>
+            <div class="col-md-6 col-sm-6 mt-3">
+                <audio id="downloadAudio" src="" controls=""></audio>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center pb-4">
+                <a href="./index.html" >Go Back</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <footer>
     <div class="container footer">
         <div class="row pt-5">
             <div class="col-md-6 col-sm-12">
                 <h4 class="text-center">Info:</h4>
                 <p>
-                    Some of the music can't be downloaded but most of Trending Music can be download.<br />
+                    Some of the music can't be downloaded only Trending Music can be download.<br />
                     Sorry for that.
                     Meanwhile Enjoy the Flow.
                 </p>
