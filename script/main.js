@@ -534,17 +534,18 @@ tdownloadMusic13 = () => {
     downloadPage.style.display = "block";
 }
 
-//finesse
+//new Born Fela
 tdownloadMusic14 = () => {
 
     let tSongTitle14 = document.getElementById("tSongTitle14");
     let tSongTitleText14 = document.getElementById("tSongTitleText14");
+    let tMusic14 = "https://cdn.trendybeatz.com/audio/Bella-Shmurda-New-Born-Fela-(TrendyBeatz.com).mp3";
    
    
     document.getElementById("downloadH4").innerHTML = tSongTitle14.innerHTML;
     document.getElementById("downloadP").innerHTML = tSongTitleText14.innerHTML;
-    downloadBtn.href = "./audio/trending/finesse.mp3";
-    downloadAudio.src = "./audio/trending/finesse.mp3";
+    downloadBtn.href = tMusic14;
+    downloadAudio.src = tMusic14;
     downloadImg.src = document.getElementById("trendingImg1").src;
    
    
@@ -792,12 +793,12 @@ rdownloadMusic9 = () => {
     downloadPage.style.display = "block";
 }
 
-// Commander
+// Jaiye_Foreign
 rdownloadMusic10 = () => {
 
     let rSongTitle10 = document.getElementById("rSongTitle10");
     let rSongTitleText10 = document.getElementById("rSongTitleText10");
-    let rMusic10 = "https://www.9jablazejams.com.ng/wp-content/uploads/2022/08/BNXN_-_Commander_9jablazejams.com.ng.mp3";
+    let rMusic10 = "https://www.xclusiveloaded.com/wp-content/uploads/2022/08/Tiwa_Savage_Ft_Zinoleesky_-_Jaiye_Foreign.mp3";
    
    
     document.getElementById("downloadH4").innerHTML = rSongTitle10.innerHTML;
@@ -933,4 +934,348 @@ rdownloadMusic14 = () => {
 
 
 
+/*======= Foreign download section =======*/
 
+// First class 
+fdownloadMusic1 = () => {
+
+    let fSongTitle1 = document.getElementById("fSongTitle1");
+    let fSongTitleText1 = document.getElementById("fSongTitleText1");
+    let fMusic1 = "https://www.vistanaij.com.ng/wp-content/dmca/2022/04/Jack_Harlow_-_First_Class_Vistanaij.com.ng.mp3";
+   
+   
+    document.getElementById("downloadH4").innerHTML = fSongTitle1.innerHTML;
+    document.getElementById("downloadP").innerHTML = fSongTitleText1.innerHTML;
+    downloadBtn.href = fMusic1;
+    downloadAudio.src = fMusic1;
+    downloadImg.src = document.getElementById("foreignImg1").src;
+   
+   
+    LandingPage.style.display = "none";
+    Recently.style.display = "none";
+    Foreign.style.display = "none";
+    Trending.style.display = "none";
+    navBar.style.display = "none";
+    downloadPage.style.display = "block";
+}
+// As it was
+fdownloadMusic2 = () => {
+
+    let fSongTitle2 = document.getElementById("fSongTitle2");
+    let fSongTitleText2 = document.getElementById("fSongTitleText2");
+    let fMusic2 = "https://files.correctvibe.com/audio/2022/04/Harry_Styles_-_As_It_Was(Correctvibe.com).mp3?_=4";
+   
+   
+    document.getElementById("downloadH4").innerHTML = fSongTitle2.innerHTML;
+    document.getElementById("downloadP").innerHTML = fSongTitleText2.innerHTML;
+    downloadBtn.href = fMusic2;
+    downloadAudio.src = fMusic2;
+    downloadImg.src = document.getElementById("foreignImg2").src;
+   
+   
+    LandingPage.style.display = "none";
+    Recently.style.display = "none";
+    Foreign.style.display = "none";
+    Trending.style.display = "none";
+    navBar.style.display = "none";
+    downloadPage.style.display = "block";
+}
+
+// wait For you
+fdownloadMusic3 = () => {
+
+    let fSongTitle3 = document.getElementById("fSongTitle3");
+    let fSongTitleText3 = document.getElementById("fSongTitleText3");
+    let fMusic3 = "https://cdn.trendybeatz.com/audio/Future-Wait-For-U-Ft-Drake-Tems-(TrendyBeatz.com).mp3";
+   
+   
+    document.getElementById("downloadH4").innerHTML = fSongTitle3.innerHTML;
+    document.getElementById("downloadP").innerHTML = fSongTitleText3.innerHTML;
+    downloadBtn.href = fMusic3;
+    downloadAudio.src = fMusic3;
+    downloadImg.src = document.getElementById("foreignImg3").src;
+   
+   
+    LandingPage.style.display = "none";
+    Recently.style.display = "none";
+    Foreign.style.display = "none";
+    Trending.style.display = "none";
+    navBar.style.display = "none";
+    downloadPage.style.display = "block";
+}
+
+// shivers
+fdownloadMusic4 = () => {
+
+    let fSongTitle4 = document.getElementById("fSongTitle4");
+    let fSongTitleText4 = document.getElementById("fSongTitleText4");
+    let fMusic4 = "https://www.farloaded.com/wp-content/uploads/2022/04/Shivers_Farloadedcom_Ed_Sheeran_farloadedcom.mp3";
+   
+   
+    document.getElementById("downloadH4").innerHTML = fSongTitle4.innerHTML;
+    document.getElementById("downloadP").innerHTML = fSongTitleText4.innerHTML;
+    downloadBtn.href = fMusic4;
+    downloadAudio.src = fMusic4;
+    downloadImg.src = document.getElementById("foreignImg4").src;
+   
+   
+    LandingPage.style.display = "none";
+    Recently.style.display = "none";
+    Foreign.style.display = "none";
+    Trending.style.display = "none";
+    navBar.style.display = "none";
+    downloadPage.style.display = "block";
+}
+
+// jimmy cooks
+fdownloadMusic5 = () => {
+
+    let fSongTitle5 = document.getElementById("fSongTitle5");
+    let fSongTitleText5 = document.getElementById("fSongTitleText5");
+    let fMusic5 = "https://www1.morexlusive.com/wp-content/uploads/2022/06/Drake_ft_21_Savage_-_Jimmy_Cooks.mp3";
+   
+   
+    document.getElementById("downloadH4").innerHTML = fSongTitle5.innerHTML;
+    document.getElementById("downloadP").innerHTML = fSongTitleText5.innerHTML;
+    downloadBtn.href = fMusic5;
+    downloadAudio.src = fMusic5;
+    downloadImg.src = document.getElementById("foreignImg5").src;
+   
+   
+    LandingPage.style.display = "none";
+    Recently.style.display = "none";
+    Foreign.style.display = "none";
+    Trending.style.display = "none";
+    navBar.style.display = "none";
+    downloadPage.style.display = "block";
+}
+
+// out of time
+fdownloadMusic6 = () => {
+
+    let fSongTitle6 = document.getElementById("fSongTitle6");
+    let fSongTitleText6 = document.getElementById("fSongTitleText6");
+    let fMusic6 = "https://www1.morexlusive.com/wp-content/uploads/2022/01/The_Weeknd_-_Out_of_Time.mp3";
+   
+   
+    document.getElementById("downloadH4").innerHTML = fSongTitle6.innerHTML;
+    document.getElementById("downloadP").innerHTML = fSongTitleText6.innerHTML;
+    downloadBtn.href = fMusic6;
+    downloadAudio.src = fMusic6;
+    downloadImg.src = document.getElementById("foreignImg6").src;
+   
+   
+    LandingPage.style.display = "none";
+    Recently.style.display = "none";
+    Foreign.style.display = "none";
+    Trending.style.display = "none";
+    navBar.style.display = "none";
+    downloadPage.style.display = "block";
+}
+
+// Dear alcohol
+fdownloadMusic7 = () => {
+
+    let fSongTitle7 = document.getElementById("fSongTitle7");
+    let fSongTitleText7 = document.getElementById("fSongTitleText7");
+    let fMusic7 = "https://www.xclusiveloaded.com/wp-content/uploads/2022/03/Dax_-_Dear_Alcohol.mp3";
+   
+   
+    document.getElementById("downloadH4").innerHTML = fSongTitle7.innerHTML;
+    document.getElementById("downloadP").innerHTML = fSongTitleText7.innerHTML;
+    downloadBtn.href = fMusic7;
+    downloadAudio.src = fMusic7;
+    downloadImg.src = document.getElementById("foreignImg7").src;
+   
+   
+    LandingPage.style.display = "none";
+    Recently.style.display = "none";
+    Foreign.style.display = "none";
+    Trending.style.display = "none";
+    navBar.style.display = "none";
+    downloadPage.style.display = "block";
+}
+
+// pushin p
+fdownloadMusic8 = () => {
+
+    let fSongTitle8 = document.getElementById("fSongTitle8");
+    let fSongTitleText8 = document.getElementById("fSongTitleText8");
+    let fMusic8 = "https://arewamh.com.ng/wp-content/uploads/2022/05/Gunna-Future-Pushin-P.mp3?_=1";
+   
+   
+    document.getElementById("downloadH4").innerHTML = fSongTitle8.innerHTML;
+    document.getElementById("downloadP").innerHTML = fSongTitleText8.innerHTML;
+    downloadBtn.href = fMusic8;
+    downloadAudio.src = fMusic8;
+    downloadImg.src = document.getElementById("foreignImg8").src;
+   
+   
+    LandingPage.style.display = "none";
+    Recently.style.display = "none";
+    Foreign.style.display = "none";
+    Trending.style.display = "none";
+    navBar.style.display = "none";
+    downloadPage.style.display = "block";
+}
+
+// Billie-Eilish
+fdownloadMusic9 = () => {
+
+    let fSongTitle9 = document.getElementById("fSongTitle9");
+    let fSongTitleText9 = document.getElementById("fSongTitleText9");
+    let fMusic9 = "https://jamsbase.com/wp-content/uploads/2020/04/Billie-Eilish-_-_burn_.mp3?_=1";
+   
+   
+    document.getElementById("downloadH4").innerHTML = fSongTitle9.innerHTML;
+    document.getElementById("downloadP").innerHTML = fSongTitleText9.innerHTML;
+    downloadBtn.href = fMusic9;
+    downloadAudio.src = fMusic9;
+    downloadImg.src = document.getElementById("foreignImg9").src;
+   
+   
+    LandingPage.style.display = "none";
+    Recently.style.display = "none";
+    Foreign.style.display = "none";
+    Trending.style.display = "none";
+    navBar.style.display = "none";
+    downloadPage.style.display = "block";
+}
+
+// Commander
+fdownloadMusic10 = () => {
+
+    let fSongTitle10 = document.getElementById("fSongTitle10");
+    let fSongTitleText10 = document.getElementById("fSongTitleText10");
+    let fMusic10 = "https://www.9jablazejams.com.ng/wp-content/uploads/2022/08/BNXN_-_Commander_9jablazejams.com.ng.mp3";
+   
+   
+    document.getElementById("downloadH4").innerHTML = fSongTitle10.innerHTML;
+    document.getElementById("downloadP").innerHTML = fSongTitleText10.innerHTML;
+    downloadBtn.href = fMusic10;
+    downloadAudio.src = fMusic10;
+    downloadImg.src = document.getElementById("foreignImg10").src;
+   
+   
+    LandingPage.style.display = "none";
+    Recently.style.display = "none";
+    Foreign.style.display = "none";
+    Trending.style.display = "none";
+    navBar.style.display = "none";
+    downloadPage.style.display = "block";
+}
+
+// Different size
+fdownloadMusic11 = () => {
+
+    let fSongTitle11 = document.getElementById("fSongTitle11");
+    let fSongTitleText11 = document.getElementById("fSongTitleText11");
+    let fMusic11 = "https://karoloaded.com/wp-content/uploads/2022/07/Burna_Boy_Ft_Victony_-_Different_Size.mp3";
+   
+   
+    document.getElementById("downloadH4").innerHTML = fSongTitle11.innerHTML;
+    document.getElementById("downloadP").innerHTML = fSongTitleText11.innerHTML;
+    downloadBtn.href = fMusic11;
+    downloadAudio.src = fMusic11;
+    downloadImg.src = document.getElementById("foreignImg11").src;
+   
+   
+    LandingPage.style.display = "none";
+    Recently.style.display = "none";
+    Foreign.style.display = "none";
+    Trending.style.display = "none";
+    navBar.style.display = "none";
+    downloadPage.style.display = "block";
+}
+
+// Propeller
+fdownloadMusic12 = () => {
+
+    let fSongTitle12 = document.getElementById("fSongTitle12");
+    let fSongTitleText12 = document.getElementById("fSongTitleText12");
+    let fMusic12 = "https://cdn.trendybeatz.com/audio/JAE5-Ft-Dave-and-BNXN-Propeller-(TrendyBeatz.com).mp3";
+   
+   
+    document.getElementById("downloadH4").innerHTML = fSongTitle12.innerHTML;
+    document.getElementById("downloadP").innerHTML = fSongTitleText12.innerHTML;
+    downloadBtn.href = fMusic12;
+    downloadAudio.src = fMusic12;
+    downloadImg.src = document.getElementById("foreignImg12").src;
+   
+   
+    LandingPage.style.display = "none";
+    Recently.style.display = "none";
+    Foreign.style.display = "none";
+    Trending.style.display = "none";
+    navBar.style.display = "none";
+    downloadPage.style.display = "block";
+}
+
+// Compromise
+fdownloadMusic13 = () => {
+
+    let fSongTitle13 = document.getElementById("fSongTitle13");
+    let fSongTitleText13 = document.getElementById("fSongTitleText13");
+    let fMusic13 = "https://cdn.trendybeatz.com/audio/Fireboy-DML-Ft-Rema-Compromise-(TrendyBeatz.com).mp3";
+   
+   
+    document.getElementById("downloadH4").innerHTML = fSongTitle13.innerHTML;
+    document.getElementById("downloadP").innerHTML = fSongTitleText13.innerHTML;
+    downloadBtn.href = fMusic13;
+    downloadAudio.src = fMusic13;
+    downloadImg.src = document.getElementById("foreignImg13").src;
+   
+   
+    LandingPage.style.display = "none";
+    Recently.style.display = "none";
+    Foreign.style.display = "none";
+    Trending.style.display = "none";
+    navBar.style.display = "none";
+    downloadPage.style.display = "block";
+}
+
+// Elevate (Remix)
+fdownloadMusic14 = () => {
+
+    let fSongTitle14 = document.getElementById("fSongTitle14");
+    let fSongTitleText14 = document.getElementById("fSongTitleText14");
+    let fMusic14 = "https://www.xclusiveloaded.com/wp-content/uploads/2022/06/Balloranking_ft_Bella_Shmurda_-_Elevate_Remix_.mp3";
+   
+   
+    document.getElementById("downloadH4").innerHTML = fSongTitle14.innerHTML;
+    document.getElementById("downloadP").innerHTML = fSongTitleText14.innerHTML;
+    downloadBtn.href = fMusic14;
+    downloadAudio.src = fMusic14;
+    downloadImg.src = document.getElementById("foreignImg14").src;
+   
+   
+    LandingPage.style.display = "none";
+    Recently.style.display = "none";
+    Foreign.style.display = "none";
+    Trending.style.display = "none";
+    navBar.style.display = "none";
+    downloadPage.style.display = "block";
+   }
+
+// Young dumb and broke
+   fdownloadMusic15 = () => {
+
+    let fSongTitle15 = document.getElementById("fSongTitle15");
+    let fSongTitleText15 = document.getElementById("fSongTitleText15");
+    let fMusic15 = "https://talkglitz.media/wp-content/uploads/2018/07/Khalid_-_Young_Dumb_Broke_talkglitz.tv.mp3?_=2";
+   
+   
+    document.getElementById("downloadH4").innerHTML = fSongTitle15.innerHTML;
+    document.getElementById("downloadP").innerHTML = fSongTitleText15.innerHTML;
+    downloadBtn.href = fMusic15;
+    downloadAudio.src = fMusic15;
+    downloadImg.src = document.getElementById("foreignImg15").src;
+   
+   
+    LandingPage.style.display = "none";
+    Recently.style.display = "none";
+    Foreign.style.display = "none";
+    Trending.style.display = "none";
+    navBar.style.display = "none";
+    downloadPage.style.display = "block";
+}
