@@ -249,8 +249,6 @@ downloadGoBack = () => {
     downloadPage.style.display = "none";
 }
 
-
-
 // Bandana
 tdownloadMusic1 = () => {
 
@@ -578,4 +576,361 @@ tdownloadMusic14 = () => {
     Trending.style.display = "none";
     navBar.style.display = "none";
     downloadPage.style.display = "block";
+}
+
+
+
+
+
+
+
+/*========= RECENTLY ADDED DOWNLOAD SECTION =========*/
+
+// For My Hand 
+rdownloadMusic1 = () => {
+
+    let rSongTitle1 = document.getElementById("rSongTitle1");
+    let rSongTitleText1 = document.getElementById("rSongTitleText1");
+    let rMusic1 = "https://talktalktoday.com.ng/wp-content/music/2022/07/Burna_Boy_Ft_Ed_Sheeran_-_My_Hand.mp3?_=3";
+   
+   
+    document.getElementById("downloadH4").innerHTML = rSongTitle1.innerHTML;
+    document.getElementById("downloadP").innerHTML = rSongTitleText1.innerHTML;
+    downloadBtn.href = rMusic1;
+    downloadAudio.src = rMusic1;
+    downloadImg.src = document.getElementById("recentlyImg1").src;
+   
+   
+    LandingPage.style.display = "none";
+    Recently.style.display = "none";
+    Foreign.style.display = "none";
+    Trending.style.display = "none";
+    navBar.style.display = "none";
+    downloadPage.style.display = "block";
+}
+// All Power
+rdownloadMusic2 = () => {
+
+    let rSongTitle2 = document.getElementById("rSongTitle2");
+    let rSongTitleText2 = document.getElementById("rSongTitleText2");
+    let rMusic2 = "https://cdn.trendybeatz.com/audio/Victony-All-Power-(TrendyBeatz.com)1.mp3";
+   
+   
+    document.getElementById("downloadH4").innerHTML = rSongTitle2.innerHTML;
+    document.getElementById("downloadP").innerHTML = rSongTitleText2.innerHTML;
+    downloadBtn.href = rMusic2;
+    downloadAudio.src = rMusic2;
+    downloadImg.src = document.getElementById("recentlyImg2").src;
+   
+   
+    LandingPage.style.display = "none";
+    Recently.style.display = "none";
+    Foreign.style.display = "none";
+    Trending.style.display = "none";
+    navBar.style.display = "none";
+    downloadPage.style.display = "block";
+}
+
+// Contour
+rdownloadMusic3 = () => {
+
+    let rSongTitle3 = document.getElementById("rSongTitle3");
+    let rSongTitleText3 = document.getElementById("rSongTitleText3");
+    let rMusic3 = "https://cdn.trendybeatz.com/audio/Joeboy-Contour-(TrendyBeatz.com).mp3";
+   
+   
+    document.getElementById("downloadH4").innerHTML = rSongTitle3.innerHTML;
+    document.getElementById("downloadP").innerHTML = rSongTitleText3.innerHTML;
+    downloadBtn.href = rMusic3;
+    downloadAudio.src = rMusic3;
+    downloadImg.src = document.getElementById("recentlyImg3").src;
+   
+   
+    LandingPage.style.display = "none";
+    Recently.style.display = "none";
+    Foreign.style.display = "none";
+    Trending.style.display = "none";
+    navBar.style.display = "none";
+    downloadPage.style.display = "block";
+}
+
+// Terminator
+rdownloadMusic4 = () => {
+
+    let rSongTitle4 = document.getElementById("rSongTitle4");
+    let rSongTitleText4 = document.getElementById("rSongTitleText4");
+    let rMusic4 = "https://fakazagods.com/tag/tmp/Asake%20%E2%80%93%20Terminator%20[Fakazagods.com].mp3";
+   
+   
+    document.getElementById("downloadH4").innerHTML = rSongTitle4.innerHTML;
+    document.getElementById("downloadP").innerHTML = rSongTitleText4.innerHTML;
+    downloadBtn.href = rMusic4;
+    downloadAudio.src = rMusic4;
+    downloadImg.src = document.getElementById("recentlyImg4").src;
+   
+   
+    LandingPage.style.display = "none";
+    Recently.style.display = "none";
+    Foreign.style.display = "none";
+    Trending.style.display = "none";
+    navBar.style.display = "none";
+    downloadPage.style.display = "block";
+}
+
+// Warning
+rdownloadMusic5 = () => {
+
+    let rSongTitle5 = document.getElementById("rSongTitle5");
+    let rSongTitleText5 = document.getElementById("rSongTitleText5");
+    let rMusic5 = "https://cdn.trendybeatz.com/audio/Ruger-Warning-(TrendyBeatz.com).mp3";
+   
+   
+    document.getElementById("downloadH4").innerHTML = rSongTitle5.innerHTML;
+    document.getElementById("downloadP").innerHTML = rSongTitleText5.innerHTML;
+    downloadBtn.href = rMusic5;
+    downloadAudio.src = rMusic5;
+    downloadImg.src = document.getElementById("recentlyImg5").src;
+   
+   
+    LandingPage.style.display = "none";
+    Recently.style.display = "none";
+    Foreign.style.display = "none";
+    Trending.style.display = "none";
+    navBar.style.display = "none";
+    downloadPage.style.display = "block";
+}
+
+// Ashawo
+rdownloadMusic6 = () => {
+
+    let rSongTitle6 = document.getElementById("rSongTitle6");
+    let rSongTitleText6 = document.getElementById("rSongTitleText6");
+    let rMusic6 = "https://www.042jam.com/wp-content/uploads/2022/08/Fireboy_DML_-_Ashawo_042jam.com.mp3?_=1";
+   
+   
+    document.getElementById("downloadH4").innerHTML = rSongTitle6.innerHTML;
+    document.getElementById("downloadP").innerHTML = rSongTitleText6.innerHTML;
+    downloadBtn.href = rMusic6;
+    downloadAudio.src = rMusic6;
+    downloadImg.src = document.getElementById("recentlyImg6").src;
+   
+   
+    LandingPage.style.display = "none";
+    Recently.style.display = "none";
+    Foreign.style.display = "none";
+    Trending.style.display = "none";
+    navBar.style.display = "none";
+    downloadPage.style.display = "block";
+}
+
+// my life
+rdownloadMusic7 = () => {
+
+    let rSongTitle7 = document.getElementById("rSongTitle7");
+    let rSongTitleText7 = document.getElementById("rSongTitleText7");
+    let rMusic7 = "https://cdn.trendybeatz.com/audio/T.I-Blaze-My-Life-(TrendyBeatz.com).mp3";
+   
+   
+    document.getElementById("downloadH4").innerHTML = rSongTitle7.innerHTML;
+    document.getElementById("downloadP").innerHTML = rSongTitleText7.innerHTML;
+    downloadBtn.href = rMusic7;
+    downloadAudio.src = rMusic7;
+    downloadImg.src = document.getElementById("recentlyImg7").src;
+   
+   
+    LandingPage.style.display = "none";
+    Recently.style.display = "none";
+    Foreign.style.display = "none";
+    Trending.style.display = "none";
+    navBar.style.display = "none";
+    downloadPage.style.display = "block";
+}
+
+// watawi
+rdownloadMusic8 = () => {
+
+    let rSongTitle8 = document.getElementById("rSongTitle8");
+    let rSongTitleText8 = document.getElementById("rSongTitleText8");
+    let rMusic8 = "https://www.xclusiveloaded.com/wp-content/uploads/2022/06/CKay_ft_Davido_Focalistic_Abidoza_-_Watawi.mp3";
+   
+   
+    document.getElementById("downloadH4").innerHTML = rSongTitle8.innerHTML;
+    document.getElementById("downloadP").innerHTML = rSongTitleText8.innerHTML;
+    downloadBtn.href = rMusic8;
+    downloadAudio.src = rMusic8;
+    downloadImg.src = document.getElementById("recentlyImg8").src;
+   
+   
+    LandingPage.style.display = "none";
+    Recently.style.display = "none";
+    Foreign.style.display = "none";
+    Trending.style.display = "none";
+    navBar.style.display = "none";
+    downloadPage.style.display = "block";
+}
+
+// Electricity
+rdownloadMusic9 = () => {
+
+    let rSongTitle9 = document.getElementById("rSongTitle9");
+    let rSongTitleText9 = document.getElementById("rSongTitleText9");
+    let rMusic9 = "https://www.xclusiveloaded.com/wp-content/uploads/2022/08/Pheelz_Ft_Davido_-_Electricity.mp3";
+   
+   
+    document.getElementById("downloadH4").innerHTML = rSongTitle9.innerHTML;
+    document.getElementById("downloadP").innerHTML = rSongTitleText9.innerHTML;
+    downloadBtn.href = rMusic9;
+    downloadAudio.src = rMusic9;
+    downloadImg.src = document.getElementById("recentlyImg9").src;
+   
+   
+    LandingPage.style.display = "none";
+    Recently.style.display = "none";
+    Foreign.style.display = "none";
+    Trending.style.display = "none";
+    navBar.style.display = "none";
+    downloadPage.style.display = "block";
+}
+
+// Commander
+rdownloadMusic10 = () => {
+
+    let rSongTitle10 = document.getElementById("rSongTitle10");
+    let rSongTitleText10 = document.getElementById("rSongTitleText10");
+    let rMusic10 = "https://www.9jablazejams.com.ng/wp-content/uploads/2022/08/BNXN_-_Commander_9jablazejams.com.ng.mp3";
+   
+   
+    document.getElementById("downloadH4").innerHTML = rSongTitle10.innerHTML;
+    document.getElementById("downloadP").innerHTML = rSongTitleText10.innerHTML;
+    downloadBtn.href = rMusic10;
+    downloadAudio.src = rMusic10;
+    downloadImg.src = document.getElementById("recentlyImg10").src;
+   
+   
+    LandingPage.style.display = "none";
+    Recently.style.display = "none";
+    Foreign.style.display = "none";
+    Trending.style.display = "none";
+    navBar.style.display = "none";
+    downloadPage.style.display = "block";
+}
+
+// Different size
+rdownloadMusic11 = () => {
+
+    let rSongTitle11 = document.getElementById("rSongTitle11");
+    let rSongTitleText11 = document.getElementById("rSongTitleText11");
+    let rMusic11 = "https://karoloaded.com/wp-content/uploads/2022/07/Burna_Boy_Ft_Victony_-_Different_Size.mp3";
+   
+   
+    document.getElementById("downloadH4").innerHTML = rSongTitle11.innerHTML;
+    document.getElementById("downloadP").innerHTML = rSongTitleText11.innerHTML;
+    downloadBtn.href = rMusic11;
+    downloadAudio.src = rMusic11;
+    downloadImg.src = document.getElementById("recentlyImg11").src;
+   
+   
+    LandingPage.style.display = "none";
+    Recently.style.display = "none";
+    Foreign.style.display = "none";
+    Trending.style.display = "none";
+    navBar.style.display = "none";
+    downloadPage.style.display = "block";
+}
+
+// Propeller
+rdownloadMusic12 = () => {
+
+    let rSongTitle12 = document.getElementById("rSongTitle12");
+    let rSongTitleText12 = document.getElementById("rSongTitleText12");
+    let rMusic12 = "https://cdn.trendybeatz.com/audio/JAE5-Ft-Dave-and-BNXN-Propeller-(TrendyBeatz.com).mp3";
+   
+   
+    document.getElementById("downloadH4").innerHTML = rSongTitle12.innerHTML;
+    document.getElementById("downloadP").innerHTML = rSongTitleText12.innerHTML;
+    downloadBtn.href = rMusic12;
+    downloadAudio.src = rMusic12;
+    downloadImg.src = document.getElementById("recentlyImg12").src;
+   
+   
+    LandingPage.style.display = "none";
+    Recently.style.display = "none";
+    Foreign.style.display = "none";
+    Trending.style.display = "none";
+    navBar.style.display = "none";
+    downloadPage.style.display = "block";
+}
+
+// Compromise
+rdownloadMusic13 = () => {
+
+    let rSongTitle13 = document.getElementById("rSongTitle13");
+    let rSongTitleText13 = document.getElementById("rSongTitleText13");
+    let rMusic13 = "https://cdn.trendybeatz.com/audio/Fireboy-DML-Ft-Rema-Compromise-(TrendyBeatz.com).mp3";
+   
+   
+    document.getElementById("downloadH4").innerHTML = rSongTitle13.innerHTML;
+    document.getElementById("downloadP").innerHTML = rSongTitleText13.innerHTML;
+    downloadBtn.href = rMusic13;
+    downloadAudio.src = rMusic13;
+    downloadImg.src = document.getElementById("recentlyImg13").src;
+   
+   
+    LandingPage.style.display = "none";
+    Recently.style.display = "none";
+    Foreign.style.display = "none";
+    Trending.style.display = "none";
+    navBar.style.display = "none";
+    downloadPage.style.display = "block";
+}
+
+// Elevate (Remix)
+rdownloadMusic14 = () => {
+
+    let rSongTitle14 = document.getElementById("rSongTitle14");
+    let rSongTitleText14 = document.getElementById("rSongTitleText14");
+    let rMusic14 = "https://www.xclusiveloaded.com/wp-content/uploads/2022/06/Balloranking_ft_Bella_Shmurda_-_Elevate_Remix_.mp3";
+   
+   
+    document.getElementById("downloadH4").innerHTML = rSongTitle14.innerHTML;
+    document.getElementById("downloadP").innerHTML = rSongTitleText14.innerHTML;
+    downloadBtn.href = rMusic14;
+    downloadAudio.src = rMusic14;
+    downloadImg.src = document.getElementById("recentlyImg14").src;
+   
+   
+    LandingPage.style.display = "none";
+    Recently.style.display = "none";
+    Foreign.style.display = "none";
+    Trending.style.display = "none";
+    navBar.style.display = "none";
+    downloadPage.style.display = "block";
    }
+
+// Diana
+   rdownloadMusic15 = () => {
+
+    let rSongTitle15 = document.getElementById("rSongTitle15");
+    let rSongTitleText15 = document.getElementById("rSongTitleText15");
+    let rMusic15 = "https://www.trendyhiphop.com/wp-content/uploads/2022/08/Fireboy_DML_Ft_Chris_Brown_Shensea_-_Diana.mp3";
+   
+   
+    document.getElementById("downloadH4").innerHTML = rSongTitle15.innerHTML;
+    document.getElementById("downloadP").innerHTML = rSongTitleText15.innerHTML;
+    downloadBtn.href = rMusic15;
+    downloadAudio.src = rMusic15;
+    downloadImg.src = document.getElementById("recentlyImg15").src;
+   
+   
+    LandingPage.style.display = "none";
+    Recently.style.display = "none";
+    Foreign.style.display = "none";
+    Trending.style.display = "none";
+    navBar.style.display = "none";
+    downloadPage.style.display = "block";
+}
+
+
+
+
+
