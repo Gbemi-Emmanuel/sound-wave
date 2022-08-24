@@ -113,17 +113,17 @@ body.dark{
         width: 150px;
     }
     #darkModeBody{
-        width: 50px;
-        height: 25px;
+        width: 40px;
+        height: 20px;
         top: 8%;
         right: 5px;
     }
     #darkModeButton{
-        width: 24px;
-        height: 24px;
+        width: 20px;
+        height: 20px;
     }
     #darkModeBody.active .dark-mode-button{
-        left: 25px;
+        left: 20px;
     }
 }
 
