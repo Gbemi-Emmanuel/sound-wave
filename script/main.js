@@ -1142,12 +1142,12 @@ fdownloadMusic9 = () => {
     downloadPage.style.display = "block";
 }
 
-// Commander
+// break my soul
 fdownloadMusic10 = () => {
 
     let fSongTitle10 = document.getElementById("fSongTitle10");
     let fSongTitleText10 = document.getElementById("fSongTitleText10");
-    let fMusic10 = "https://www.9jablazejams.com.ng/wp-content/uploads/2022/08/BNXN_-_Commander_9jablazejams.com.ng.mp3";
+    let fMusic10 = "https://www.vistanaij.com.ng/wp-content/dmca/2022/06/Beyonc_-_BREAK_MY_SOUL_VistaNaija.Com.mp3";
    
    
     document.getElementById("downloadH4").innerHTML = fSongTitle10.innerHTML;
@@ -1165,12 +1165,12 @@ fdownloadMusic10 = () => {
     downloadPage.style.display = "block";
 }
 
-// Different size
+// car's outside
 fdownloadMusic11 = () => {
 
     let fSongTitle11 = document.getElementById("fSongTitle11");
     let fSongTitleText11 = document.getElementById("fSongTitleText11");
-    let fMusic11 = "https://karoloaded.com/wp-content/uploads/2022/07/Burna_Boy_Ft_Victony_-_Different_Size.mp3";
+    let fMusic11 = "https://doksblog.com/wp-content/uploads/2022/08/Doksblog.com-James-Arthur-Cars-Outside.mp3";
    
    
     document.getElementById("downloadH4").innerHTML = fSongTitle11.innerHTML;
@@ -1188,12 +1188,12 @@ fdownloadMusic11 = () => {
     downloadPage.style.display = "block";
 }
 
-// Propeller
+// Stay
 fdownloadMusic12 = () => {
 
     let fSongTitle12 = document.getElementById("fSongTitle12");
     let fSongTitleText12 = document.getElementById("fSongTitleText12");
-    let fMusic12 = "https://cdn.trendybeatz.com/audio/JAE5-Ft-Dave-and-BNXN-Propeller-(TrendyBeatz.com).mp3";
+    let fMusic12 = "https://cdn.trendybeatz.com/audio/The-Kid-Laroi-Ft-Justin-Bieber-Stay-(TrendyBeatz.com).mp3";
    
    
     document.getElementById("downloadH4").innerHTML = fSongTitle12.innerHTML;
@@ -1211,12 +1211,12 @@ fdownloadMusic12 = () => {
     downloadPage.style.display = "block";
 }
 
-// Compromise
+// Industry Baby
 fdownloadMusic13 = () => {
 
     let fSongTitle13 = document.getElementById("fSongTitle13");
     let fSongTitleText13 = document.getElementById("fSongTitleText13");
-    let fMusic13 = "https://cdn.trendybeatz.com/audio/Fireboy-DML-Ft-Rema-Compromise-(TrendyBeatz.com).mp3";
+    let fMusic13 = "https://cdn.trendybeatz.com/audio/Lil-Nas-X-Ft-Jack-Harlow-Industry-Baby-(TrendyBeatz.com).mp3";
    
    
     document.getElementById("downloadH4").innerHTML = fSongTitle13.innerHTML;
@@ -1234,12 +1234,12 @@ fdownloadMusic13 = () => {
     downloadPage.style.display = "block";
 }
 
-// Elevate (Remix)
+// Burn
 fdownloadMusic14 = () => {
 
     let fSongTitle14 = document.getElementById("fSongTitle14");
     let fSongTitleText14 = document.getElementById("fSongTitleText14");
-    let fMusic14 = "https://www.xclusiveloaded.com/wp-content/uploads/2022/06/Balloranking_ft_Bella_Shmurda_-_Elevate_Remix_.mp3";
+    let fMusic14 = "https://thinknews.com.ng/wp-content/uploads/2021/12/Juice_WRLD_Burn_(thinkNews.com.ng).mp3";
    
    
     document.getElementById("downloadH4").innerHTML = fSongTitle14.innerHTML;
