@@ -15,6 +15,7 @@ seeTrendingMore = () => {
 
     document.getElementById("more-trending").style.display = "flex";
     document.getElementById("more-trending2").style.display = "flex";
+    document.getElementById("more-trending3").style.display = "flex";
     document.getElementById("seeMore").style.display = "none";
     document.getElementById("seeLess").style.display = "flex";
     document.getElementById("seeMoreBox").style.display = "none";
@@ -38,6 +39,7 @@ seeTrendingLess = () => {
 
     document.getElementById("more-trending").style.display = "none";
     document.getElementById("more-trending2").style.display = "none";
+    document.getElementById("more-trending3").style.display = "none";
     document.getElementById("seeMore").style.display = "flex";
     document.getElementById("seeLess").style.display = "none";
     document.getElementById("seeMoreBox").style.display = "flex";
@@ -66,6 +68,7 @@ seeRecentlyMore = () => {
 
     document.getElementById("more-recently").style.display = "flex";
     document.getElementById("more-recently2").style.display = "flex";
+    document.getElementById("more-recently3").style.display = "flex";
     document.getElementById("seeMoreRecently").style.display = "none";
     document.getElementById("seeLessRecently").style.display = "flex";
     document.getElementById("seeMoreBoxR").style.display = "none";
@@ -91,6 +94,7 @@ seeRecentlyLess = () => {
 
     document.getElementById("more-recently").style.display = "none";
     document.getElementById("more-recently2").style.display = "none";
+    document.getElementById("more-recently3").style.display = "none";
     document.getElementById("seeMoreRecently").style.display = "flex";
     document.getElementById("seeLessRecently").style.display = "none";
     document.getElementById("seeMoreBoxR").style.display = "flex";
@@ -174,6 +178,7 @@ seeForeignMore = () => {
 
     document.getElementById("more-foreign").style.display = "flex";
     document.getElementById("more-foreign2").style.display = "flex";
+    document.getElementById("more-foreign3").style.display = "flex";
     document.getElementById("seeMoreForeign").style.display = "none";
     document.getElementById("seeLessForeign").style.display = "flex";
     document.getElementById("seeMoreBoxF").style.display = "none";
@@ -197,6 +202,7 @@ seeForeignLess = () => {
 
     document.getElementById("more-foreign").style.display = "none";
     document.getElementById("more-foreign2").style.display = "none";
+    document.getElementById("more-foreign3").style.display = "none";
     document.getElementById("seeMoreForeign").style.display = "flex";
     document.getElementById("seeLessForeign").style.display = "none";
     document.getElementById("seeMoreBoxF").style.display = "flex";
