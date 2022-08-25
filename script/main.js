@@ -229,6 +229,13 @@ darkModeBody.addEventListener("click", () => {
     document.body.classList.toggle("dark");
 })
 
+let darkModeBodyM = document.getElementById("darkModeBodyM");
+
+darkModeBodyM.addEventListener("click", () => {
+    document.getElementById("darkModeBodyM").classList.toggle("active");
+    document.body.classList.toggle("dark");
+})
+
 
 
 

@@ -95,6 +95,33 @@ img{
     left: 30px;
 }
 
+#darkModeBodyM{
+    position: fixed;
+    width: 60px;
+    height: 30px;
+    top: 25px;
+    right: 20%;
+    background: var(--Dark);
+    box-shadow: inset 0 0 8px var(--black);
+    border-radius: 30px;
+    z-index: -1;
+    opacity: 0;
+}
+#darkModeButtonM{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: var(--black);
+    box-shadow: inset 0 0 3px var(--White);
+    border-radius: 25px;
+    cursor: pointer;
+    transition: var(--Transition);
+    left: 1px;
+}
+#darkModeBodyM.active .dark-mode-buttonM{
+    left: 30px;
+}
+
 body.dark{
     --Brand-color: #0059ff;
     --Brand-color-dark: #00E7Ff;
@@ -116,19 +143,46 @@ body.dark{
     background: none;
 }
 
+@media screen and (max-width: 289px) {
+    #darkModeBodyM{
+        right: 10%;
+    }
+}
 @media screen and (max-width: 770px) {
+    .navbar .navbar-brand img{
+        width: 180px;
+    }
+}
+@media screen and (max-width: 990px) {
     .navbar .navbar-brand img{
         width: 180px;
     }
     #darkModeBody{
         width: 40px;
         height: 20px;
+        display: none;
+        z-index: -1;
+        opacity: 0;
     }
     #darkModeButton{
         width: 20px;
         height: 20px;
     }
     #darkModeBody.active .dark-mode-button{
+        left: 20px;
+    }
+    #darkModeBodyM{
+        width: 40px;
+        height: 20px;
+        display: flex;
+        z-index: 99;
+        opacity: 1;
+    }
+    #darkModeButtonM{
+        width: 20px;
+        height: 20px;
+    }
+    #darkModeBodyM.active .dark-mode-buttonM{
         left: 20px;
     }
 }
