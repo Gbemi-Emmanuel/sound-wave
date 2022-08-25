@@ -14,8 +14,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: poppins;
+    font-family: Merriweather;
     margin: 0 auto;
+}
+p{
+   font-family: poppins;
 }
 body{
     background: var(--White);
@@ -38,19 +41,19 @@ img{
 }
 
 /*===== NAVBAR ======*/
-nav{
-    position: sticky;
-    top: 0;
-}
 .navbar{
-    background: var(--White);
+    background: rgba(var(--white-rgb), 0.85);
+    box-shadow: 0 0 7px var(--Dark);
     font-weight: 600;
     color: var(--black);
-    
+    position: sticky;
+    top: 0;
+    z-index: 98;
 }
 .navbar-nav .nav-item a{
     position: relative;
     color: var(--black);
+    font-weight: 500;
 }
 .navbar-nav .nav-item a::after{
     position: absolute;
@@ -69,9 +72,7 @@ nav{
 }
 
 #darkModeBody{
-    position: fixed;
-    top: 10%;
-    right: 20px;
+    position: relative;
     width: 60px;
     height: 30px;
     background: var(--Dark);
@@ -107,21 +108,21 @@ body.dark{
     --Transition: all 0.5s ease-in;
 }
 .navbar-toggler-icon{
-    color: var(--Dark);
-    border: 2px solid var(--Brand-color-dark);
+    font-size: 30px;
+    padding-top: 7px;
+    color: var(--black);
+    border: none;
     outline: none;
-    box-shadow: none;
+    background: none;
 }
 
 @media screen and (max-width: 770px) {
     .navbar .navbar-brand img{
-        width: 150px;
+        width: 180px;
     }
     #darkModeBody{
         width: 40px;
         height: 20px;
-        top: 8%;
-        right: 5px;
     }
     #darkModeButton{
         width: 20px;
@@ -231,7 +232,7 @@ body.dark{
     top: 0;
 }
 .trending-content p{
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 500;
 }
 .downloadbox{
@@ -350,7 +351,7 @@ body.dark{
     top: 0;
 }
 .recently-content p{
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 500;
 }
 .recently-body-seeMore{
@@ -417,7 +418,7 @@ body.dark{
     top: 0;
 }
 .local-content p{
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 500;
 }
 .local-body-seeMore{
@@ -485,7 +486,7 @@ body.dark{
     top: 0;
 }
 .foreign-content p{
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 500;
 }
 
