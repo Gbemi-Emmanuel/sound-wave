@@ -194,6 +194,8 @@ body.dark{
 }
 .search-body{
     padding-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 .search-body input{
     border: none;
@@ -205,8 +207,10 @@ body.dark{
 .search-body button{
     padding: 8px 10px;
     border: none;
-    background: var(--White);
+    background: var(--Brand-color);
     color: var(--black);
+    width: 50px;
+    font-size: 20px;
 }
 
 
