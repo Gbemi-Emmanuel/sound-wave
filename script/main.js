@@ -238,6 +238,23 @@ darkModeBodyM.addEventListener("click", () => {
 
 
 
+//============ SEARCH FUNCTION SECTION ===========
+function SearchFunction(){
+    let input = document.getElementById('mySearch');
+    let trendingSearchSection = document.getElementById('trending');
+    let filter = input.value.toUpperCase();
+    let h6 = trendingSearchSection.getElementsByTagName("h6");
+    let a, i;
+
+    for (i = 0; i < h6.length; i++) {
+        a = h6[i].getElementsByTagName("h6")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+          h6[i].style.display = "";
+        } else {
+          h6[i].style.display = "none";
+        }
+}}
+
 
 
 

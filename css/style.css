@@ -187,9 +187,34 @@ body.dark{
     }
 }
 
+/*========= SEARCH SECTION =========*/
+.searchbar-container{
+    background: var(--Brand-color-dark);
+    box-shadow: inset 0 0 10px var(--Brand-color);
+}
+.search-body{
+    padding-top: 20px;
+}
+.search-body input{
+    border: none;
+    outline: none;
+    padding: 8px 10px;
+    background: var(--White);
+    color: var(--black);
+}
+.search-body button{
+    padding: 8px 10px;
+    border: none;
+    background: var(--White);
+    color: var(--black);
+}
+
 
 
 /*==== LANDING-PAGE ====*/
+.landing-page{
+    padding: 20px 0 100px 0;
+}
 .lp-content{
     height: 70vh;
     background: url(../img/earphone.jpg);
