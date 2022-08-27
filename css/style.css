@@ -54,6 +54,7 @@ img{
     position: relative;
     color: var(--black);
     font-weight: 500;
+    font-size: 18px;
 }
 .navbar-nav .nav-item a::after{
     position: absolute;
@@ -213,6 +214,11 @@ body.dark{
     font-size: 20px;
 }
 
+@media screen and (max-width: 770px) {
+    .search-body{
+        width: 70%;
+    }
+}
 
 
 /*==== LANDING-PAGE ====*/
