@@ -227,6 +227,7 @@ let darkModeBody = document.getElementById("darkModeBody");
 darkModeBody.addEventListener("click", () => {
     document.getElementById("darkModeBody").classList.toggle("active");
     document.body.classList.toggle("dark");
+    document.getElementById('lp-content').classList.toggle("dark");
 })
 
 let darkModeBodyM = document.getElementById("darkModeBodyM");
@@ -234,6 +235,7 @@ let darkModeBodyM = document.getElementById("darkModeBodyM");
 darkModeBodyM.addEventListener("click", () => {
     document.getElementById("darkModeBodyM").classList.toggle("active");
     document.body.classList.toggle("dark");
+    document.getElementById('lp-content').classList.toggle("dark");
 })
 
 

@@ -72,6 +72,12 @@ img{
     transition: var(--Transition);
 }
 
+
+
+
+
+/* DARK MODE SECTION */
+
 #darkModeBody{
     position: relative;
     width: 60px;
@@ -143,7 +149,11 @@ body.dark{
     outline: none;
     background: none;
 }
-
+.lp-content.dark{
+    background: url(../img/lp-dark.jpg);
+    background-size: cover;
+    background-position: center;
+}
 @media screen and (max-width: 289px) {
     #darkModeBodyM{
         right: 10%;
@@ -204,6 +214,7 @@ body.dark{
     padding: 8px 10px;
     background: var(--White);
     color: var(--black);
+    box-shadow: inset 0 -1px 5px var(--Dark);
 }
 .search-body button{
     padding: 8px 10px;
@@ -212,12 +223,6 @@ body.dark{
     color: var(--black);
     width: 50px;
     font-size: 20px;
-}
-
-@media screen and (max-width: 770px) {
-    .search-body{
-        width: 70%;
-    }
 }
 
 
@@ -232,7 +237,7 @@ body.dark{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     display: flex;
     align-items: center;
     text-align: center;
