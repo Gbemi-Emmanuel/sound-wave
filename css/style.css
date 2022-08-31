@@ -224,6 +224,11 @@ body.dark{
     width: 50px;
     font-size: 20px;
 }
+@media screen and (max-width: 770px) {
+    .search-body input{
+        width: 80%;
+    }
+}
 
 
 /*==== LANDING-PAGE ====*/
@@ -237,7 +242,6 @@ body.dark{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /* border-radius: 10px; */
     display: flex;
     align-items: center;
     text-align: center;
@@ -281,13 +285,6 @@ body.dark{
     text-align: right;
     cursor: pointer;
 }
-@media screen and (max-width:570px) {
-    .lp-content{
-        width: 90%;
-        margin: 0 auto;
-    }
-}
-
 
 
 
