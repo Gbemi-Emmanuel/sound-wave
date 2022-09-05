@@ -641,12 +641,12 @@ rdownloadMusic1 = () => {
     navBar.style.display = "none";
     downloadPage.style.display = "block";
 }
-// All Power
+// Electricity
 rdownloadMusic2 = () => {
 
     let rSongTitle2 = document.getElementById("rSongTitle2");
     let rSongTitleText2 = document.getElementById("rSongTitleText2");
-    let rMusic2 = "https://cdn.trendybeatz.com/audio/Victony-All-Power-(TrendyBeatz.com)1.mp3";
+    let rMusic2 = "https://www.xclusiveloaded.com/wp-content/uploads/2022/08/Pheelz_Ft_Davido_-_Electricity.mp3";
    
    
     document.getElementById("downloadH4").innerHTML = rSongTitle2.innerHTML;
@@ -710,12 +710,12 @@ rdownloadMusic4 = () => {
     downloadPage.style.display = "block";
 }
 
-// Warning
+// All Power
 rdownloadMusic5 = () => {
 
     let rSongTitle5 = document.getElementById("rSongTitle5");
     let rSongTitleText5 = document.getElementById("rSongTitleText5");
-    let rMusic5 = "https://cdn.trendybeatz.com/audio/Ruger-Warning-(TrendyBeatz.com).mp3";
+    let rMusic5 = "https://cdn.trendybeatz.com/audio/Victony-All-Power-(TrendyBeatz.com)1.mp3";
    
    
     document.getElementById("downloadH4").innerHTML = rSongTitle5.innerHTML;
@@ -802,12 +802,12 @@ rdownloadMusic8 = () => {
     downloadPage.style.display = "block";
 }
 
-// Electricity
+// Warning
 rdownloadMusic9 = () => {
 
     let rSongTitle9 = document.getElementById("rSongTitle9");
     let rSongTitleText9 = document.getElementById("rSongTitleText9");
-    let rMusic9 = "https://www.xclusiveloaded.com/wp-content/uploads/2022/08/Pheelz_Ft_Davido_-_Electricity.mp3";
+    let rMusic9 = "https://cdn.trendybeatz.com/audio/Ruger-Warning-(TrendyBeatz.com).mp3";
    
    
     document.getElementById("downloadH4").innerHTML = rSongTitle9.innerHTML;
